@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="style.css">
+  <Header>
+    <h1 id="title"><b>2053 Registration Form</b></h1>
+  </Header>
+  <body>
+<p id="description">fill out the below form to complete your Registration</p>
+    <div class="input-headings">
+<form id="survey-form">
+  <label for="name" id="name-label">Name</label>
+  <input id="name" type="text" name="name" placeholder="Sujith Kumar A" class="form_inputs"  required></input>
+<br>
+<label for="email" id="email-label">Email</label>
+<input id="email" type="email" name="email" placeholder="sujith.sunu19@gmail.com" class="form_inputs" required></input>
+<br>
+<label for="number" id="number-label">Age</label>
+<input id="number" type="number" name="number" placeholder="18" min="18" max="100" class="form_inputs" required></input>
+<br>
+<br>
+<label for="dropdown" id="model"></label>
+<select id="dropdown" class="form_inputs">
+  <option value="model_a">model a</option>
+  <option value="model_b">model b</option>
+  <option value="model_c">model c</option>
+  <option value="model_d">model d</option>
+  <option value="model_e">model e</option>
+  </select>
+<br>
+<br>
+<label for="food" id="food">Food:</label>
+<input id="food" type="radio" id="non-veg" name="food" value="non-veg"></input>
+<label for="food">Non-Veg</label>
+
+<input id="food" type="radio" id="veg" name="food" value="veg"></input>
+<label for="food">Veg</label>
+<br>
+<br>
+<label for="programmes"><b>Programmes you want to Attend:</b></label>
+<br>
+<input id="checkbox" type="checkbox" name="programmes" value="tressure_hunt"></input>
+<label for="checkbox">Treasure Hunt</label>
+  <br>
+<input id="checkbox" type="checkbox" name="programmes" value="Paradoxical_plot"></input>
+<label for="checkbox">Paradoxical Plot</label>
+  <br>
+<input id="checkbox" type="checkbox" name="programmes" value="quiz"></input>
+<label for="checkbox">Quiz</label>
+  <br>
+<label id="textarea">Additional Comments</label>
+<br>
+<br>
+<textarea id="textarea" name="instructions" row="5" cola="40"></textarea>
+<br>
+<br>
+<input id="submit" type="submit" value="register" class="submit-button"></input>
+</div>
+  
+</form>
+</body>
+</html>
